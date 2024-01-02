@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Arial';
+    background-color: #007BFF;
+    
+}
+
+button {
+    background-color: transparent; 
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+.bar{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.sections{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto 1fr auto;
+}
+
+.homePage{
+    padding: 30px 30px;
+    text-align: center;
+    background-image: url("../assets/Git.png");
+    background-size: cover;
+}
+
+.informationMe{
+    display: flex;
+    flex-wrap: column;
+    align-items: center;   
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.contact{
+    background: #2b2bf3;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 25px;
+}
