@@ -7,14 +7,14 @@
 body{
     font-family: 'Arial';
     background-color: #007BFF;
-    
+    font-size: 15px;
 }
 
 button {
     background-color: transparent; 
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@ img {
 
 .bar{
     width: 80%;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 .sections{
