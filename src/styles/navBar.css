@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
     font-family: 'Arial';
     background-color: #007BFF;
     font-size: 15px;
 }
 
 button {
-    background-color: transparent; 
+    background-color: transparent;
     border: none;
     color: white;
     font-size: 15px;
@@ -25,35 +25,35 @@ img {
     width: auto;
 }
 
-.bar{
+.bar {
     width: 80%;
     margin: 20px auto;
 }
 
-.sections{
+.sections {
     display: grid;
     align-items: center;
     justify-content: center;
     grid-template-columns: auto 1fr auto;
 }
 
-.homePage{
+.homePage {
     padding: 30px 30px;
     text-align: center;
     background-image: url("../assets/Git.png");
     background-size: cover;
 }
 
-.informationMe{
+.informationMe {
     display: flex;
     flex-wrap: column;
-    align-items: center;   
+    align-items: center;
     justify-content: center;
     gap: 50px;
 }
 
 
-.contact{
+.contact {
     background: #2b2bf3;
     padding: 10px 20px;
     text-align: center;

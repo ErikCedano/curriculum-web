@@ -1,17 +1,25 @@
-.information{
+.information {
     width: 80%;
-    margin: 150px auto; 
+    margin: 150px auto;
     display: grid;
     align-items: flex-start;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
 }
 
-.greeting{
+h1{
     font-size: 100px;
 }
 
-.photoPerfil{
+h4{
+    font-size: 16px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.photoPerfil {
     padding: 250px 250px;
     text-align: end;
     background-image: url("../assets/GatitoUwu.jpg");
@@ -19,54 +27,69 @@
     border-radius: 250px;
 }
 
-.Me{
-    margin: 20px auto; 
-    display:flex;
+.Me {
+    margin: 20px auto;
+    display: flex;
     align-items: center;
     justify-content: start;
     gap: 30px;
 }
 
-.infoMe{
+.infoMe {
     background: #2b2bf3;
     padding: 10px 20px;
     border-radius: 25px;
 }
 
-.extraData{
+.extraData {
     margin: 160px auto;
     display: flex;
     flex-direction: column;
-    align-items: start;   
+    align-items: start;
     justify-content: center;
 }
 
-
-.tittles{
-    color: #2b2bf3;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-
-.answers{
-    font-size: 20px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-}
-
-.socialInformation{
+.extraData {
+    margin: 160px auto;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: start;
     justify-content: center;
 }
 
-.linkSocial{
-    display:flex;
+.timeZone{
+    display: flex;
+    flex-direction: column;
+}
+
+.tittles, .content {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.tittles h5, .content h4 {
+    min-width: 180px; 
+    text-align: left; 
+}
+
+.tittles {
+    color: #2b2bf3;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.socialInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkSocial {
+    display: flex;
     margin: 30px auto;
     gap: 30px;
 }

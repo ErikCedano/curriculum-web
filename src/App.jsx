@@ -2,12 +2,12 @@ import React from 'react';
 //import ReactDOM from 'react-dom/client';
 import { Navbar, AboutMe } from './Sections/index';
 
- function App() {
+function App() {
   return (
-  <React.StrictMode>
-    <Navbar/>
-    <AboutMe/>
-  </React.StrictMode>
+    <div>
+      <Navbar />
+      <AboutMe />
+    </div>
   );
 }
 
